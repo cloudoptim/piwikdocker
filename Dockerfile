@@ -47,7 +47,7 @@ EXPOSE 80
 RUN chown -R apache:apache /var/www/html/piwik
 
 #INSTALL php-mbstring for piwik 
-RUN yum install php-mbstring.x86_64    
+RUN yum -y install php-mbstring   
                                                                                                                                            
                                                                                                                                            
                                                                                                                                            
